@@ -8,5 +8,12 @@ package-lock.json
 yarn.lock
 
 # Build directory
-/public
 .DS_Store
+/public/workbox-v3.6.3/
+/public/offline-plugin-app-shell-fallback/
+/public/static/
+/public/icons/
+/public/*.js
+/public/*.map
+/public/*.webmanifest
+/public/*.json

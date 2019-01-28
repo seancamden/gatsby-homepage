@@ -23,36 +23,46 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="edu"
+          className={`${this.props.article === 'edu' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Education</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <h2>Education   </h2>
+          <p>Mostly I’ve taught myself how to do this stuff. I’m easily fascinated  (distracted) and this has lead to a repertoire that is broader than it is  deep. But I’m pretty good at a few things, too.  </p>
+            
+          <p>I’m also pretty cheap. So, while my friends were building expensive gaming rigs, I was turning old, hand-me-down computers (a buddy once mailed me his old motherboard from Hong Kong) into Web servers and file servers and experimenting with different flavors of Linux and Web technologies. I’m very happy to be running my current (local) servers on computers about the size of a deck of playing cards (I heart Raspberry Pi).</p>
+            
+          <p>I have alwasy loved learning. Below are a few classes I’ve attended and certificates I’ve collected.  </p>
+            
+          <h2>Smashing Conference Workshop  </h2>
+          <h3>Advanced CSS Layouts With Flexbox and CSS Grid with Rachel Andrew  </h3>
+          <p>&nbsp;</p>
+            
+          <h2>O’Reilly School of Technology in association withThe University of Illinois at Urbana-Champaign    </h2>
+          <p>Intro to PHP</p>
+          <p>Learn C Programming</p>
+            
+          <h2>Graphic Arts Institute of Northern California</h2>
+          <h3>San Francisco, CA</h3>
+          <p>Advanced Pagination with QuarkXPress Certificate</p>
+          <p>Advanced Illustration with Illustrator Certificate</p>
+          <p>Advanced Editing with Photoshop Certificate</p>
+            
+          <h2>College of Marin/Indian Valley College  </h2>
+          <h3>Kentfield, CA/Novato, CA  </h3>
+          <p>ENGL 120 Composition II -- A</p>
+          <p>ENGL 150 Reading & Composition -- A</p>
+          <p>ENGL 155 Critical Thinking/Composition -- A</p>
+          <p>SPAN 110 Spanish Conversation I -- B</p>
+            
+          <h2>Self-Taught  </h2>
+          <p>Mac, Linux, Windows, CLI, Bash, Vim, Regular Expressions, HTML, CSS, Sass, Git, Apache, Nginx, MySQL, Magento, WordPress  </p>
           {close}
         </article>
 
@@ -103,32 +113,6 @@ class Main extends React.Component {
           <p>Performed every aspect of pre-press and quickly became familiar with files from many different applications (PageMaker, FrameMaker, QuarkXPress, Illustrator, Freehand, Photoshop, among others) and mediums, such as film, color-keys, plates, and devices such as digital proofers, the Xerox Docutech, the Fiery color-laser printer in a turn‑key print operation.   </p>
           <p>Designed and implemented a virtual press schedule using two networked Macintosh 6100s, Adobe PageMaker and Timbuktu remote control software that allowed the press room and the prepress department to update the same schedule dynamically from different parts of the building.   </p>
             
-          <h2>Education   </h2>
-          <p>Mostly I've taught myself how to do this stuff. I'm easily fascinated  (distracted) and this has lead to a repertoire that is broader than it is  deep. But I'm pretty good at a few things, too.  </p>
-            
-          <p>I'm also pretty cheap. So, while my friends were building expensive gaming rigs, I was turning old, hand-me-down computers (a buddy once mailed me his old motherboard from Hong Kong) into Web servers and file servers and experimenting with different flavors of Linux and Web technologies. I'm very happy to be running my current (local) servers on computers about the size of a deck of playing cards (I heart Raspberry Pi).</p>
-            
-          <p>I have alwasy loved learning. Below are a few classes I've attended and certificates I've collected.  </p>
-            
-          <h2>Smashing Conference Workshop  </h2>
-          <h3>Advanced CSS Layouts With Flexbox and CSS Grid with Rachel Andrew  </h3>
-            
-          <h2>O’Reilly School of Technology in association withThe University of Illinois at Urbana-Champaign    </h2>
-          <pre>http://www.oreillyschool.com/2011–2013</pre><br /> 
-          Intro to PHP    <br />
-          Learn C Programming    <br />
-            
-          <h2>Graphic Arts Institute  </h2>
-          <h3>San Francisco, CA  </h3>
-          Advanced Pagination with QuarkXPress Certificate  <br />
-          Advanced Illustration with Illustrator Certificate  <br />
-          Advanced Editing with Photoshop Certificate  <br />
-            
-          <h2>College of Marin/Indian Valley College  </h2>
-          <h3>Kentfield, CA/Novato, CA  </h3>
-            
-          <h2>Self-Taught  </h2>
-          <p>Mac, Linux, Windows, CLI, Bash, Vim, Regular Expressions, HTML, CSS, Sass, Git, Apache, Nginx, MySQL, Magento, WordPress  </p>
           {close}
         </article>
 

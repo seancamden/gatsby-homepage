@@ -67,21 +67,68 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <h2>Peet’s Coffee & Tea, peets.com  </h2>
+          <h3>Webmaster  </h3>
+          <div class="location-and-date">Emeryville, CA -- 2011–2018</div>
+          <p>Responsible for daily marketing updates to peets.com, a Magento CMS running in Amazon EC2 instances. I translate the designs from the Creative Services department into HTML using SCSS, XML, PHP, and jQuery.   </p>
+          <p>Was integral to two complete redesigns of peets.com and saw transition from a site built with ASP, running on Microsoft IIS to one built with PHP running on Nginx.  </p>
+          <p>Worked closely with an outside agency (Interactive Accessibility) and remote developers on the peets.com ADA compliance project.  </p>
+            
+          <h2>Swirl Interactive, Eleven Inc, and others  </h2>
+          <h3>Web Developer  </h3>
+          <div class="location-and-date">San Francisco, CA -- 2010–2011  </div>
+          <p>Executed landing pages, registration forms, interactive Flash ads, and HTML email campaigns for clients such as AAA, Callaway Golf, Lennar Homes, Tuck School at Dartmouth, AARP, eBay, PayPal/BillMeLater and PG&E.  </p>
+            
+          <h2>Wells Fargo  </h2>
+          <h3>Web Consultant  </h3>
+          <div class="location-and-date">San Francisco, CA -- 2009–2010  </div>
+          <p>Developed, proposed, successfully implemented solution addressing the merger of the Wachovia and Wells Fargo intranets for the Wealth Management Marketing division.  </p>
+            
+          <h2>Hamilton Partners  </h2>
+          <h3>Production Artist, Print and Web  </h3>
+          <div class="location-and-date">Healdsburg, CA -- 2004–2009  </div>
+          <p>Worked on packaging for RadioShack’s ZipZaps, Xmods, and VEX Robotics kits. I was promoted into the Web Department, Flash-based sites and widgets for Microsoft’s Encarta brand, and HP’s small and medium business printer division.   </p>
+          <p>Wrote CSS/HTML; developed a Bash script that, with ImageMagick and Illustrator files, created a multi-panel thumbnail of a brochure, automatically, eliminating a laborious and time-consuming Photoshop procedure.  </p>
+          <p>Developed blackboxwines.com: WordPress/jQuery, with client reviews, edits implemented, alpha, beta from Photoshop to completion in under three weeks, on deadline, for all major browsers (including IE6).  </p>
+            
+          <h2>Broderbund/Mattel Interactive/Riverdeep  </h2>
+          <h3>Associate Editor/Assistant Webmaster, Print and Web Production  </h3>
+          <div class="location-and-date">Novato, CA -- March 1999–April 2004  </div>
+          <p>As a member of the Creative Services department, I worked with Art Directors, Designers, and Engineers in various capacities such as Production Artist, Associate Editor and Assistant Webmaster. I worked on the riverdeep.net site, and the Creative Services intranet.  </p>
+          <p>Notable titles and brands I worked on include Printmaster, Calendar Creator, Print Shop, Carmen Sandiego, The Oregon Trail, Reader Rabbit, Destination Math, Destination Reading and Destination Success.  </p>
+            
+          <h2>All-American Printing Services  </h2>
+          <h3>Production Artist Digital Pre-Press  </h3>
+          <div class="location-and-date">Novato, CA -- November 1996–March 1999  </div>
+          <p>Performed every aspect of pre-press and quickly became familiar with files from many different applications (PageMaker, FrameMaker, QuarkXPress, Illustrator, Freehand, Photoshop, among others) and mediums, such as film, color-keys, plates, and devices such as digital proofers, the Xerox Docutech, the Fiery color-laser printer in a turn‑key print operation.   </p>
+          <p>Designed and implemented a virtual press schedule using two networked Macintosh 6100s, Adobe PageMaker and Timbuktu remote control software that allowed the press room and the prepress department to update the same schedule dynamically from different parts of the building.   </p>
+            
+          <h2>Education   </h2>
+          <p>Mostly I've taught myself how to do this stuff. I'm easily fascinated  (distracted) and this has lead to a repertoire that is broader than it is  deep. But I'm pretty good at a few things, too.  </p>
+            
+          <p>I'm also pretty cheap. So, while my friends were building expensive gaming rigs, I was turning old, hand-me-down computers (a buddy once mailed me his old motherboard from Hong Kong) into Web servers and file servers and experimenting with different flavors of Linux and Web technologies. I'm very happy to be running my current (local) servers on computers about the size of a deck of playing cards (I heart Raspberry Pi).</p>
+            
+          <p>I have alwasy loved learning. Below are a few classes I've attended and certificates I've collected.  </p>
+            
+          <h2>Smashing Conference Workshop  </h2>
+          <h3>Advanced CSS Layouts With Flexbox and CSS Grid with Rachel Andrew  </h3>
+            
+          <h2>O’Reilly School of Technology in association withThe University of Illinois at Urbana-Champaign    </h2>
+          <pre>http://www.oreillyschool.com/2011–2013</pre><br /> 
+          Intro to PHP    <br />
+          Learn C Programming    <br />
+            
+          <h2>Graphic Arts Institute  </h2>
+          <h3>San Francisco, CA  </h3>
+          Advanced Pagination with QuarkXPress Certificate  <br />
+          Advanced Illustration with Illustrator Certificate  <br />
+          Advanced Editing with Photoshop Certificate  <br />
+            
+          <h2>College of Marin/Indian Valley College  </h2>
+          <h3>Kentfield, CA/Novato, CA  </h3>
+            
+          <h2>Self-Taught  </h2>
+          <p>Mac, Linux, Windows, CLI, Bash, Vim, Regular Expressions, HTML, CSS, Sass, Git, Apache, Nginx, MySQL, Magento, WordPress  </p>
           {close}
         </article>
 

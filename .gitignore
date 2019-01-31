@@ -17,3 +17,8 @@ yarn.lock
 /public/*.map
 /public/*.webmanifest
 /public/*.json
+/public/2*
+/public/4*
+/public/p*
+/public/index.html
+/public/stuff/

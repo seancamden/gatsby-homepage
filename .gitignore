@@ -10,3 +10,16 @@ yarn.lock
 # Build directory
 .DS_Store
 /public/*
+/public/*.js
+/public/*.map
+/public/*.webmanifest
+/public/*.json
+/public/2*
+/public/4*
+/public/p*
+/public/index.html
+/public/stuff/
+/public/workbox-v3.6.3/
+/public/offline-plugin-app-shell-fallback/
+/public/static/
+/public/icons/

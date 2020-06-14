@@ -34,11 +34,11 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <h2>Education   </h2>
-          <p>Mostly I’ve taught myself how to do this stuff. I’m easily fascinated  (distracted) and this has lead to a repertoire that is broader than it is  deep. But I’m pretty good at a few things, too.  </p>
+          <p>Mostly I’ve taught myself how to do this stuff, and I've been doing it for about 25 years. I’m easily fascinated  (distracted) and this has lead to a repertoire that is broader than it is  deep. But chances are, if it has to do with the Web, I know how it goes.  </p>
             
-          <p>I’m also pretty cheap. So, while my friends were building expensive gaming rigs, I was turning old, hand-me-down computers (a buddy once mailed me his old motherboard from Hong Kong) into Web servers and file servers and experimenting with different flavors of Linux and Web technologies. I’m very happy to be running my current (local) servers on computers about the size of a deck of playing cards (I heart Raspberry Pi).</p>
+          <p>I’m also pretty cheap. So, while I've had high-paying corporate jobs, I am mostly motivated by my love and fascination for the Web.</p>
             
-          <p>I have alwasy loved learning. Below are a few classes I’ve attended and certificates I’ve collected.  </p>
+          <p>I have always loved learning. Below are a few classes I’ve attended and certificates I’ve collected.  </p>
             
           <h2>Smashing Conference Workshop  </h2>
           <h3>Advanced CSS Layouts With Flexbox and CSS Grid with Rachel Andrew  </h3>

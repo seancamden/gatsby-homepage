@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/2664bfd8ee8989f2de7768063da2de6b56ad4e3e.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/ace3080cb8012e431e7dce8e1694bda2c66c107a.jpg'
 import pic03 from '../images/©RoryEarnshaw_AllRightsReserved_335.jpg'
 
 class Main extends React.Component {

@@ -7,7 +7,7 @@ const Footer = props => (
       Design:{' '}
       <a href="https://html5up.net">HTML5 UP</a>. Built with:{' '}
       <a href="https://www.gatsbyjs.org/">Gatsby.js</a>. Some images from:{' '}
-      <a href="https://source.unsplash.com/">Unsplash Source</a>
+      <a href="https://unsplash.com/s/photos/source">Unsplash Source</a>
     </p>
   </footer>
 )
